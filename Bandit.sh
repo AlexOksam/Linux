@@ -6,3 +6,17 @@ The username is bandit0 and the password is bandit0.
 Once logged in, go to the Level 1 page to find out how to beat Level 1.
 COMMENT
 
+alex@alex-Virtual-Machine:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+bandit0@bandit.labs.overthewire.org's password:'
+
+bandit0@bandit:

@@ -7,9 +7,7 @@ Once logged in, go to the Level 1 page to find out how to beat Level 1.
 COMMENT
 
 alex@alex-Virtual-Machine:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
-<<COMMENT
 bandit0@bandit.labs.overthewire.org password:
-COMMENT
 bandit0@bandit:~$
 
 <<COMMENT

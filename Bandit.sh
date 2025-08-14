@@ -19,4 +19,5 @@ alex@alex-Virtual-Machine:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 bandit0@bandit.labs.overthewire.org's password:'
 
-bandit0@bandit:
+bandit0@bandit: logout
+alex@alex-Virtual-Machine:~$

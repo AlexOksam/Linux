@@ -8,6 +8,7 @@ COMMENT
 
 alex@alex-Virtual-Machine:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
 bandit0@bandit.labs.overthewire.org password:
+# bandit0
 bandit0@bandit:~$
 
 <<COMMENT
@@ -19,7 +20,8 @@ COMMENT
 
 bandit0@bandit:~$ ls
 readme
-bandit0@bandit:~$ cat readme 
+bandit0@bandit:~$ cat readme
+
 <<COMMENT
 Congratulations on your first steps into the bandit game!!
 Please make sure you have read the rules at https://overthewire.org/rules/
@@ -29,5 +31,38 @@ contribute to the OverTheWire community so we can keep these games free!
 
 The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 COMMENT
-bandit0@bandit:~$
 
+bandit0@bandit:~$ logout
+alex@alex-Virtual-Machine:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
+bandit1@bandit.labs.overthewire.org password:
+# ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+bandit1@bandit:~$ 
+
+<<COMMENT
+Bandit Level 1 → Level 2
+Level Goal
+The password for the next level is stored in a file called - located in the home directory
+Commands you may need to solve this level
+ls , cd , cat , file , du , find
+COMMENT
+
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ ls -a
+-  .  ..  .bash_logout  .bashrc  .profile
+bandit1@bandit:~$ cat ./-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit1@bandit:~$ logout
+
+alex@alex-Virtual-Machine:~$ ssh bandit2@bandit.labs.overthewire.org -p 2220
+bandit2@bandit.labs.overthewire.org password:
+# 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit2@bandit:~$ 
+
+<<COMMENT
+Bandit Level 2 → Level 3
+Level Goal
+The password for the next level is stored in a file called –spaces in this filename– located in the home directory
+Commands you may need to solve this level
+ls , cd , cat , file , du , find
+COMMENT

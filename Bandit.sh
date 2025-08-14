@@ -66,3 +66,13 @@ The password for the next level is stored in a file called –spaces in this fil
 Commands you may need to solve this level
 ls , cd , cat , file , du , find
 COMMENT
+
+bandit2@bandit:~$ ls -b
+--spaces\ in\ this\ filename--
+
+bandit2@bandit:~$ cat --spaces\ in\ this\ filename--
+cat: unrecognized option '--spaces in this filename--'
+Try 'cat --help' for more information.
+
+bandit2@bandit:~$ cat -- --spaces\ in\ this\ filename--
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
